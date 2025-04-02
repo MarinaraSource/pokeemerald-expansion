@@ -244,4 +244,37 @@ const struct SpeciesInfo gSpeciesInfo[] =
         //.perfectIVCount = NUM_STATS,
     },
     */
+    [SPECIES_SPEDIQUIL] = 
+    {
+        .baseHP        = 39,
+        .baseAttack    = 52,
+        .baseDefense   = 43,
+        .baseSpeed     = 65,
+        .baseSpAttack  = 70,
+        .baseSpDefense = 62,
+        .types = MON_TYPES(TYPE_FIRE, TYPE_GHOST)
+        .catchRate = 45,
+        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 62 : 65,
+        .evYield_Speed = 1,
+        .genderRatio = PERCENT_FEMALE(87.5),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
+        .abilities = { ABILITY_CLEAR_BODY, ABILITY_GUARD_DOG, ABILITY_FLASH_FIRE },
+        .bodyColor = BODY_COLOR_YELLOW,
+        .speciesName = _("Spediquil"),
+        .cryId = CRY_CYNDAQUIL,
+        .natDexNum = NATIONAL_DEX_CYNDAQUIL,
+        .categoryName = _("Special Mouse"),
+        .height = 5,
+        .weight = 79,
+        .description = COMPOUND_STRING(
+            "The years of inbreeding from Hisui\n"
+            "have brought it to the state it is\n"
+            "currently in today.",
+        .pokemonScale = 539,
+        .pokemonOffset = 21,
+        .trainerScale = 256,
+        .trainerOffset = 0,
 };
