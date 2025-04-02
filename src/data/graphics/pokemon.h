@@ -26735,3 +26735,10 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
     const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");
     const u8 gMonIcon_Egg[] = INCBIN_U8("graphics/pokemon/egg/icon.4bpp");
+
+    const u32 gMonFrontPic_Spediquil[] = INCBIN_U32("graphics/pokemon/spediquil/anim_front.4bpp.lz");
+    const u32 gMonBackPic_Spediquil[] = INCBIN_U32("graphics/pokemon/spediquil/back.4bpp.lz");
+    const u32 gMonPalette_Spediquil[] = INCBIN_U32("graphics/pokemon/spediquil/normal.gbapal.lz");
+    const u32 gMonShinyPalette_Spediquil[] = INCBIN_U32("graphics/pokemon/spediquil/shiny.gbapal.lz");
+    const u8 gMonIcon_Spediquil[] = INCBIN_U8("graphics/pokemon/spediquil/icon.4bpp");
+    const u8 gMonFootprint_Spediquil[] = INCBIN_U8("graphics/pokemon/spediquil/footprint.1bpp");
